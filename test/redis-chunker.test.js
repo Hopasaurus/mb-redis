@@ -9,7 +9,7 @@ describe('redis-chunker', function () {
     });
 
     it('accepts buffers as message parts', function () {
-        const testData = Buffer.from("test data");
+        const testData = Buffer.from('test data');
         const chunker = new Chunker();
         chunker.data(testData);
     });
